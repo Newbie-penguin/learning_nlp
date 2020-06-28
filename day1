@@ -1,2 +1,6 @@
 Day 1:
 Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 1 – Introduction and Word Vectors
+2 algorithms: continuous bag-of-words (CBOW) and skip-gram. CBOW aims to predict a center word from the surrounding context in terms of word vectors. 
+Skip-gram does the opposite, and predicts the distribution (probability) of context words from a center word.
+- 2 training methods: negative sampling and hierarchical softmax. Negative sampling deﬁnes an objective by sampling negative examples, while hierarchical 
+softmax deﬁnes an objective using an efﬁcient tree structure to compute probabilities for all the vocabulary.
